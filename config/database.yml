@@ -1,0 +1,36 @@
+# default: &default
+#   adapter: postgresql
+#   encoding: unicode
+#   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+#   host: localhost
+#   port: 5432
+#   timeout: 5000
+
+# development:
+#   <<: *default
+#   database: connecta_dev
+#   username: postgres
+#   password: c0nnect@123$$
+
+# production:
+#   <<: *default
+#   database: connecta_prod
+#   username: postgres
+#   password: md5e24ea26b15e2a922e31d4d6ea04b3e11
+
+# Sachin local DB.yml
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  host: localhost
+  port: 5959
+  timeout: 5000
+
+development:
+  <<: *default
+  database: ecom_dev
+  username: postgres
+  password: password
+
+
