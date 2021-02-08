@@ -7,7 +7,7 @@ end
 
 gem "angularjs-rails-resource"
 gem 'bootsnap', require: false
-gem "carrierwave", "~> 2.0"
+gem "carrierwave", "~> 2.1"
 gem "cancancan"
 gem "font-awesome-rails"
 gem 'jquery-rails'
